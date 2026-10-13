@@ -60,47 +60,6 @@ espacio-nordico/
 
 ---
 
-## 🚀 Deploy en Vercel
-
-### Opción 1 — Vercel CLI
-```bash
-npm i -g vercel
-cd espacio-nordico
-vercel --prod
-```
-
-### Opción 2 — Vercel Web
-1. Subir este repositorio a **GitHub**
-2. Ir a [vercel.com/new](https://vercel.com/new)
-3. Importar el repositorio
-4. Vercel detecta automáticamente el sitio estático → **Deploy** ✅
-
-### Opción 3 — Drag & Drop
-1. Ir a [vercel.com/new](https://vercel.com/new)
-2. Arrastrar la carpeta `espacio-nordico/` → **Deploy** ✅
-
----
-
-## ⚙️ Personalización rápida
-
-### Cambiar número de WhatsApp
-En `js/main.js`, buscar y reemplazar:
-```js
-const WHATSAPP_NUMBER = '5491112345678'; // ← Tu número con código de país
-```
-
-### Cambiar precios
-En `index.html`, buscar los elementos `.product-card-price` de cada producto.
-
-### Cambiar colores
-En `css/styles.css`, modificar las CSS variables del `:root`:
-```css
---color-accent:       #8B7355;  /* Color principal madera */
---color-accent-light: #C4A882;  /* Acento claro */
---color-bg:           #FAFAF8;  /* Fondo general */
-```
-
----
 
 ## 🛠️ Tecnologías
 
