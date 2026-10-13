@@ -97,7 +97,7 @@ function initScrollReveal() {
    Product Cards: WhatsApp Inquiry
    ============================================ */
 function initProductCards() {
-  const WHATSAPP_NUMBER = '5491112345678'; // ← Reemplaza con tu número real
+  const WHATSAPP_NUMBER = '2664657929'; // ← Reemplaza con tu número real
 
   document.querySelectorAll('[data-product-btn]').forEach(btn => {
     btn.addEventListener('click', () => {
