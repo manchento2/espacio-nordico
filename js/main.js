@@ -128,7 +128,7 @@ function initParallaxHero() {
    WhatsApp CTA Helper
    ============================================ */
 window.openWhatsApp = function(message) {
-  const WHATSAPP_NUMBER = '5491112345678'; // ← Reemplaza con tu número real
+  const WHATSAPP_NUMBER = '2664657929'; // ← Reemplaza con tu número real
   const encoded = encodeURIComponent(message || '¡Hola! Me gustaría recibir más información sobre Espacio Nórdico.');
   window.open(`https://wa.me/${WHATSAPP_NUMBER}?text=${encoded}`, '_blank', 'noopener,noreferrer');
 };
